@@ -28,7 +28,7 @@ TARGET_PREBUILT_KERNEL := device/samsung/gtelwifiue/kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 01e00000 --dt device/samsung/gtelwifiueo/dtb
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 01e00000 --dt device/samsung/gtelwifiue/dtb
 
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 HAVE_SYNAPTICS_I2C_RMI4_FW_UPGRADE := true
